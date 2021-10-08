@@ -1,0 +1,38 @@
+first of all 
+
+if  i had two dictionaries .. and i want to union them ...... 
+i use one of them . and update it of the other ...... how 
+
+dict1 = {'1': 'bassem',"2":"hussein"}
+dict2 =  {'3': 'hamed',"4":"silem"}
+
+
+dict2.update(dict1)
+
+print(dict2)
+
+
+
+same i will do 
+
+
+
+dic1={1:10, 2:20}
+dic2={3:30, 4:40}
+dic3={5:50,6:60}
+dic4 = {}
+
+for x in ((dic1,dic2,dic3)):
+	dic4.update(x)
+
+	
+	
+print(dic4)
+	 
+
+
+
+i consist a tuple of the 3 dictionary i have .. and then loooped throught .. the tuple .. three dictionaries in the 
+tuple .. so i make  3 iterations .. 
+
+each time of iteration .. i will update the resultant dictionary with the new dictionnay . .

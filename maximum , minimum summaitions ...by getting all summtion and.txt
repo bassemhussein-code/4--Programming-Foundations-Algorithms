@@ -1,0 +1,15 @@
+static void miniMaxSum(int[] arr) {
+    long sum = 0;
+    int minEl = arr[0];
+    int maxEl = arr[0];
+    for(int i=0;i<arr.length;i++){
+        sum+=arr[i];
+        if(arr[i]<minEl){
+            minEl = arr[i];
+        }
+        if(arr[i]>maxEl){
+            maxEl = arr[i];
+        }
+    }
+    System.out.println((sum-maxEl)+" "+(sum-minEl));
+}

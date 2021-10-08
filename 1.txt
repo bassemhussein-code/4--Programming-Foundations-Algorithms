@@ -1,0 +1,13 @@
+1 maximum summation .. minimum summation .. for a list 
+
+      thinking would be :
+
+ 
+                  first  get the summations of all list 
+
+                  secondly : get the minimum & maximum elements by comparsions ..not by built in max & min 
+
+                  third : the maximum summation: summation - minimum 
+                   4th: the minimum summation: summation - maximum 
+
+      don't forget .. initialize the first item of the list .. and then comparsions 

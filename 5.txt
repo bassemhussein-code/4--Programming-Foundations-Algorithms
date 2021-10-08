@@ -1,0 +1,14 @@
+Find maximum length subarray having a given sum
+
+
+A[] = { 5, 6, -5, 5, 3, 5, 3, -2, 0 }
+Sum = 8
+ 
+ 
+Subarrays with sum 8 are
+ 
+{ -5, 5, 3, 5 }
+{ 3, 5 }
+{ 5, 3 }
+ 
+The longest subarray is { -5, 5, 3, 5 } having length 4

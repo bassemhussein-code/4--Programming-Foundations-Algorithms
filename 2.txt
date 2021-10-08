@@ -1,0 +1,22 @@
+2 ) to calculate how many times the maximum element occurs 
+
+       
+           first : we have to calculate the max element 
+
+                 initialze the first of the list 
+                 then loop throught the list 
+                 if the i element > or equal to the initial value 
+                     then put max = arr[i]
+
+           till here we get the maximum element 
+
+
+            second : loop through the list again .. to calcalute how many times 
+                      if the arr[i] == maximum 
+                         put count +=1 
+
+     return count 
+
+
+
+              

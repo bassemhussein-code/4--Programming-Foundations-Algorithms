@@ -1,0 +1,22 @@
+Find the maximum product of two integers in an array ..\
+
+
+
+the first solution .. is to loop throught the array twice..
+and every time update the variable with  the product                              O(n*2 )
+
+
+
+the second solution .. is to sort the array .. 
+
+you don't know which is bigger .. first elements .. or .. the last elements 
+ 
+so you check .. if                                                                O(nlog (n))
+
+
+
+the third solution .. is to solve this problem in a linear time ..            O(n ) 
+
+
+looop through the list ... and comparsionsn in the first min && second min .. the first max .. && the second min
+

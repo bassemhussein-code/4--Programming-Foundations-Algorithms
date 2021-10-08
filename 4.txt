@@ -1,0 +1,34 @@
+''' a problem consists of a  binary list .. you have to sort it .. zeros first.. .then ones 
+
+
+  and you  need to print all zeros you find ,, in this array ..'''
+
+
+''' first count the zeros .. 
+put them in the biginnnig of the array ...
+then looop from the rest index .. to the last of the array .. 
+to put ones in them '''
+
+
+
+
+
+second solution .. 
+
+
+to use the pivot .. as 1 
+
+and loop throught the list .. 
+
+if the currnet element smaller than pivot .. 
+
+sawp this element with the first index "j " 
+
+and increases "j"
+
+
+                   and the SWAP 
+
+ is a function 
+
+
